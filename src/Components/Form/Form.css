@@ -1,0 +1,61 @@
+.section {
+  width: 50%;
+  height: 70vh;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 0.3);
+}
+.section .part1 {
+  width: 30%;
+  height: 100%;
+  background: linear-gradient(to right top, #0072ff, #00c6ff);
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  padding: 5px 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.section .part2 {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 26px;
+  padding: 0 20px;
+}
+.section .part2 .titel h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+.section .part2 .titel h1 span {
+  color: #0072ff;
+}
+.section .part2 .titel .subtitel {
+  font-size: 1rem;
+  text-align: center;
+  color: #0072ff;
+  font-weight: 600;
+}
+.section .part2 .desc {
+  text-align: center;
+  line-height: 1.7;
+}
+.section .part2 .btn {
+  width: 30%;
+  text-decoration: none;
+  text-align: center;
+  color: #0072ff;
+  background: none;
+  padding: 12px 10px;
+  cursor: pointer;
+  border: 1.5px #00c6ff solid;
+}
+.section .part2 .btn:hover {
+  font-weight: 600;
+  background: linear-gradient(to right bottom, #0072ff, #00c6ff);
+  color: #fff;
+}/*# sourceMappingURL=Form.css.map */
